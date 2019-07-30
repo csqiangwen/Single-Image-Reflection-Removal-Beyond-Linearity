@@ -32,5 +32,5 @@ for i, data in enumerate(dataset):
         image_name = '%s_%s.png' % (name, label)
         save_path = os.path.join(img_dir, image_name)
         util.save_image(image_numpy, save_path)
-        save_path = os.path.join(img_dir, '%s_W_A_reflection.npy' % name)
+        save_path = os.path.join(img_dir, '%s_W.npy' % name)
         np.save(save_path, model.W_A_reflection.cpu().numpy())
