@@ -44,4 +44,4 @@ cd ./Removal
 
   training set: trainA(contains the reflection ground truth.), trainB(contains the transmission ground truth), trainC(contains the images which have the reflection to remove.), trainW(contains the alpha blending mask ground truth.)
   
-  testing set: trainB(contains the transmission ground truth), trainC(contains the reflection images to be remove.)
+  testing set: testB(contains the transmission ground truth), testC(contains the images which have the reflection to remove.)
