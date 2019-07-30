@@ -45,3 +45,24 @@ cd ./Removal
   training set: trainA(contains the reflection ground truth.), trainB(contains the transmission ground truth), trainC(contains the images which have the reflection to remove.), trainW(contains the alpha blending mask ground truth.)
   
   testing set: testB(contains the transmission ground truth), testC(contains the images which have the reflection to remove.)
+* To train the synthesis model:
+``` bash
+python3 ./train.py --dataroot path_to_dir_for_reflection_removal/ --name reflection_removal --gpu_ids 0 --save_epoch_freq 1 --batchSize 5 --which_type defocused
+```
+or you can directly:
+``` bash 
+bash ./removal_train.sh
+```
+* To test the synthesis model:
+``` bash
+python3 ./test.py --dataroot path_to_dir_for_reflection_removal/ --which_type focused --which_epoch 130 --how_many 1
+```
+or you can directly:
+``` bash 
+bash ./removal_test.sh
+```
+Here are the [pre-trained models](https://www.baidu.com/) which are trained on the three types of synthetic dataset.
+
+Here are the synthetic [training set](https://www.baidu.com/) and [testing set](https://www.baidu.com/).
+
+To evaluate on other datasets, please finetune the pre-trained models on the specific training set.
