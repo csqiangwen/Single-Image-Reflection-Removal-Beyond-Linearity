@@ -11,15 +11,15 @@ Qiang Wen, Yinjie Tan, Jing Qin, Wenxi Liu, Guoqiang Han, and Shengfeng He*
 - Pytorch 0.4.0
 - Ubuntu 16.04 LTS
 ## Reflection Synthesis
+``` bash
+cd ./Synthesis
+```
 * Constrcut these new folders for training and testing
 
   training set: trainA, trainB, trainC(contains real-world reflection images for adversarial loss.)
   
   testing set: testA(contains the images to be used as reflection.), testB(contains the images to be used as transmission.)
 * To train the synthesis model:
-``` bash
-cd ./Synthesis
-```
 ``` bash
 python3 ./train.py --dataroot path_to_dir_for_reflection_synthesis/ --name reflection_synthesis --gpu_ids 0 --save_epoch_freq 1 --batchSize 10
 ```
@@ -29,9 +29,10 @@ bash ./synthesis_train.sh
 ```
 * To test the synthesis model:
 ``` bash
-cd Synthesis
-```
-``` bash
 python3 ./test.py --dataroot path_to_dir_for_synthesis/ --name reflection_synthesis --gpu_ids 0 --which_epoch 130 --how_many 1
+```
+or you can directly:
+``` bash 
+bash ./synthesis_test.sh
 ```
 [Here](https://www.baidu.com/) is the pre-trained model. And to generate the three types of reflection images, you can use [these original images](https://www.baidu.com/) from [perceptual-reflection-removal](https://github.com/ceciliavision/perceptual-reflection-removal).
