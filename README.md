@@ -63,8 +63,18 @@ bash ./removal_test.sh
 ```
 Here are the [pre-trained models](https://www.baidu.com/) which are trained on the three types of synthetic dataset.
 
-Here are the synthetic [training set](https://www.baidu.com/) and [testing set](https://www.baidu.com/).
+Here are the synthetic [training set](https://www.baidu.com/) and [testing set](https://www.baidu.com/) for reflection removal.
 
 To evaluate on other datasets, please finetune the pre-trained models on the specific training set.
 ## Acknowledgments
-Part of the code is based upon [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+Part of the code is based upon [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+## Citation
+```
+@InProceedings{Wen_2019_CVPR,
+  author = {Wen, Qiang and Tan, Yinjie and Qin, Jing and Liu, Wenxi and Han, Guoqiang and He, Shengfeng},
+  title = {Single Image Reflection Removal Beyond Linearity},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month = {June},
+  year = {2019}
+}
+```
