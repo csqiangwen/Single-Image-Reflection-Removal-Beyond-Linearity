@@ -42,6 +42,6 @@ cd ./Removal
 ```
 * Constrcut these new folders for training and testing
 
-  training set: trainA(contains the reflection ground truth.), trainB(contains the transmission ground truth), trainC(contains the reflection images to be remove.), trainW(contains the alpha blending mask ground truth.)
+  training set: trainA(contains the reflection ground truth.), trainB(contains the transmission ground truth), trainC(contains the images which have the reflection to remove.), trainW(contains the alpha blending mask ground truth.)
   
-  testing set: trainC(contains the reflection images to be remove.)
+  testing set: trainB(contains the transmission ground truth), trainC(contains the reflection images to be remove.)
