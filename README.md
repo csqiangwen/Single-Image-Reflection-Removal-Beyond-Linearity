@@ -16,7 +16,6 @@ Qiang Wen, Yinjie Tan, Jing Qin, Wenxi Liu, Guoqiang Han, and Shengfeng He*
   training set: trainA, trainB, trainC(contains real-world reflection images for adversarial loss.)
   
   testing set: testA(contains the images to be used as reflection.), testB(contains the images to be used as transmission.)
-  
 * To train the synthesis model:
 ``` bash
 cd ./Synthesis
