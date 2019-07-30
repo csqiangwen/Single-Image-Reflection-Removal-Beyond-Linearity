@@ -66,3 +66,5 @@ Here are the [pre-trained models](https://www.baidu.com/) which are trained on t
 Here are the synthetic [training set](https://www.baidu.com/) and [testing set](https://www.baidu.com/).
 
 To evaluate on other datasets, please finetune the pre-trained models on the specific training set.
+## Acknowledgments
+Part of the code is based upon [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
