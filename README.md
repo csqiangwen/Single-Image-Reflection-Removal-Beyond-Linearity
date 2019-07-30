@@ -11,10 +11,15 @@ Qiang Wen, Yinjie Tan, Jing Qin, Wenxi Liu, Guoqiang Han, and Shengfeng He*
 - Pytorch 0.4.0
 - Ubuntu 16.04 LTS
 ## Reflection Synthesis
-* Constrcut new folders for training and testing
+* Constrcut these new folders for training and testing
+
+  training set: trainA, trainB, trainC(contains real-world reflection images for adversarial loss.)
+  
+  testing set: testA(contains the images to be used as reflection.), testB(contains the images to be used as transmission.)
+  
 * To train the synthesis model:
 ``` bash
-cd Synthesis
+cd ./Synthesis
 ```
 ``` bash
 python3 ./train.py --dataroot path_to_dir_for_reflection_synthesis/ --name reflection_synthesis --gpu_ids 0 --save_epoch_freq 1 --batchSize 10
