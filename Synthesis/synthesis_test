@@ -1,0 +1,1 @@
+python3 ./test.py --dataroot path_to_dir_for_synthesis/ --name reflection_synthesis --gpu_ids 0 --which_epoch 130 --how_many 1
