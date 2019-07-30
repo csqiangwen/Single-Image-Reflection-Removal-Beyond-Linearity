@@ -36,3 +36,12 @@ or you can directly:
 bash ./synthesis_test.sh
 ```
 [Here](https://www.baidu.com/) is the pre-trained model. And to generate the three types of reflection images, you can use [these original images](https://www.baidu.com/) from [perceptual-reflection-removal](https://github.com/ceciliavision/perceptual-reflection-removal).
+## Reflection Removal
+``` bash
+cd ./Removal
+```
+* Constrcut these new folders for training and testing
+
+  training set: trainA(contains the reflection ground truth.), trainB(contains the transmission ground truth), trainC(contains the reflection images to be remove.), trainW(contains the alpha blending mask ground truth.)
+  
+  testing set: trainC(contains the reflection images to be remove.)
