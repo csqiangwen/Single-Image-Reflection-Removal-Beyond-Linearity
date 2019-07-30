@@ -35,7 +35,7 @@ or you can directly:
 ``` bash 
 bash ./synthesis_test.sh
 ```
-[Here](https://www.baidu.com/) is the pre-trained model. And to generate the three types of reflection images, you can use [these original images](https://www.baidu.com/) from [perceptual-reflection-removal](https://github.com/ceciliavision/perceptual-reflection-removal).
+[Here](https://www.baidu.com/) is the pre-trained model. And to generate the three types of reflection images, you can use [these original images](https://www.baidu.com/) which are from [perceptual-reflection-removal](https://github.com/ceciliavision/perceptual-reflection-removal).
 ## Reflection Removal
 ``` bash
 cd ./Removal
@@ -45,7 +45,7 @@ cd ./Removal
   training set: trainA(contains the reflection ground truth.), trainB(contains the transmission ground truth), trainC(contains the images which have the reflection to remove.), trainW(contains the alpha blending mask ground truth.)
   
   testing set: testB(contains the transmission ground truth), testC(contains the images which have the reflection to remove.)
-* To train the synthesis model:
+* To train the removal model:
 ``` bash
 python3 ./train.py --dataroot path_to_dir_for_reflection_removal/ --name reflection_removal --gpu_ids 0 --save_epoch_freq 1 --batchSize 5 --which_type defocused
 ```
@@ -53,7 +53,7 @@ or you can directly:
 ``` bash 
 bash ./removal_train.sh
 ```
-* To test the synthesis model:
+* To test the removal model:
 ``` bash
 python3 ./test.py --dataroot path_to_dir_for_reflection_removal/ --which_type focused --which_epoch 130 --how_many 1
 ```
