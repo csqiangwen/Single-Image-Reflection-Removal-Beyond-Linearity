@@ -65,7 +65,7 @@ Here are the [pre-trained models](https://drive.google.com/file/d/1WbfcVGTu91yZP
 
 Here are the synthetic [training set](https://drive.google.com/drive/folders/1cPoeIrRU0qxA8cvkL7x2pOIJb7KLF9aM?usp=sharing) and [testing set](https://drive.google.com/file/d/1JBXAdAXgFreTq3zmP6NvuEp2CqK3o8ng/view?usp=sharing) for reflection removal.
 
-To evaluate on other datasets, please finetune the pre-trained models on the specific training set.
+To evaluate on other datasets, please finetune the pre-trained models or re-train a new model on the specific training set.
 ## Acknowledgments
 Part of the code is based upon [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 ## Citation
