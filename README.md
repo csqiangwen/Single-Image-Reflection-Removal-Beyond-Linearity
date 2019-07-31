@@ -47,7 +47,7 @@ cd ./Removal
   testing set: testB(contains the transmission ground truth), testC(contains the images which have the reflection to remove.)
 * To train the removal model:
 ``` bash
-python3 ./train.py --dataroot path_to_dir_for_reflection_removal/ --name reflection_removal --gpu_ids 0 --save_epoch_freq 1 --batchSize 5 --which_type defocused
+python3 ./train.py --dataroot path_to_dir_for_reflection_removal/ --name reflection_removal --gpu_ids 0 --save_epoch_freq 1 --batchSize 5 --which_type focused
 ```
 or you can directly:
 ``` bash 
