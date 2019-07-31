@@ -35,7 +35,7 @@ or you can directly:
 ``` bash 
 bash ./synthesis_test.sh
 ```
-[Here](https://www.baidu.com/) is the pre-trained model. And to generate the three types of reflection images, you can use [these original images](https://www.baidu.com/) which are from [perceptual-reflection-removal](https://github.com/ceciliavision/perceptual-reflection-removal).
+[Here](https://drive.google.com/file/d/1il1jvCK2fb8g9NDA66bbazP5TwTbjdGU/view?usp=sharing) is the pre-trained model. And to generate the three types of reflection images, you can use [these original images](https://drive.google.com/file/d/1DNKj4YM4OjE_brXayf0hmqYQb3M6OqK7/view?usp=sharing) which are from [perceptual-reflection-removal](https://github.com/ceciliavision/perceptual-reflection-removal).
 ## Reflection Removal
 ``` bash
 cd ./Removal
@@ -61,9 +61,9 @@ or you can directly:
 ``` bash 
 bash ./removal_test.sh
 ```
-Here are the [pre-trained models](https://www.baidu.com/) which are trained on the three types of synthetic dataset.
+Here are the [pre-trained models](https://drive.google.com/file/d/1WbfcVGTu91yZP26o8DKCrdQhyXpHt6Fo/view?usp=sharing) which are trained on the three types of synthetic dataset.
 
-Here are the synthetic [training set](https://www.baidu.com/) and [testing set](https://www.baidu.com/) for reflection removal.
+Here are the synthetic [training set](https://drive.google.com/drive/folders/1cPoeIrRU0qxA8cvkL7x2pOIJb7KLF9aM?usp=sharing) and [testing set](https://drive.google.com/file/d/1JBXAdAXgFreTq3zmP6NvuEp2CqK3o8ng/view?usp=sharing) for reflection removal.
 
 To evaluate on other datasets, please finetune the pre-trained models on the specific training set.
 ## Acknowledgments
