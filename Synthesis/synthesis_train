@@ -1,1 +1,1 @@
-python3 ./train.py --dataroot path_to_dir_for_reflection_synthesis/ --name reflection_synthesis --gpu_ids 0 --save_epoch_freq 1 --batchSize 10 
+python3 ./train.py --dataroot path_to_dir_for_reflection_synthesis/ --gpu_ids 0 --save_epoch_freq 1 --batchSize 10 
