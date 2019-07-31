@@ -13,7 +13,7 @@ class BaseOptions():
         self.parser.add_argument('--dataroot', required=True, help='path to images (should have subfolders trainA, trainB, trainC, etc)')
         self.parser.add_argument('--batchSize', type=int, default=1, help='input batch size')
         self.parser.add_argument('--loadSize', type=int, default=512, help='scale images to this size')
-        self.parser.add_argument('--input_nc', type=int, default=6, help='# of input image channels')
+        self.parser.add_argument('--input_nc', type=int, default=3, help='# of input image channels')
         self.parser.add_argument('--output_nc', type=int, default=3, help='# of output image channels')
         self.parser.add_argument('--ngf', type=int, default=64, help='# of gen filters in first conv layer')
         self.parser.add_argument('--ndf', type=int, default=64, help='# of discrim filters in first conv layer')
