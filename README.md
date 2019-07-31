@@ -21,7 +21,7 @@ cd ./Synthesis
   testing set: testA(contains the images to be used as reflection.), testB(contains the images to be used as transmission.)
 * To train the synthesis model:
 ``` bash
-python3 ./train.py --dataroot path_to_dir_for_reflection_synthesis/ --name reflection_synthesis --gpu_ids 0 --save_epoch_freq 1 --batchSize 10
+python3 ./train.py --dataroot path_to_dir_for_reflection_synthesis/ --gpu_ids 0 --save_epoch_freq 1 --batchSize 10
 ```
 or you can directly:
 ``` bash 
@@ -29,7 +29,7 @@ bash ./synthesis_train.sh
 ```
 * To test the synthesis model:
 ``` bash
-python3 ./test.py --dataroot path_to_dir_for_synthesis/ --name reflection_synthesis --gpu_ids 0 --which_epoch 130 --how_many 1
+python3 ./test.py --dataroot path_to_dir_for_synthesis/ --gpu_ids 0 --which_epoch 130 --how_many 1
 ```
 or you can directly:
 ``` bash 
@@ -47,7 +47,7 @@ cd ./Removal
   testing set: testB(contains the transmission ground truth), testC(contains the images which have the reflection to remove.)
 * To train the removal model:
 ``` bash
-python3 ./train.py --dataroot path_to_dir_for_reflection_removal/ --name reflection_removal --gpu_ids 0 --save_epoch_freq 1 --batchSize 5 --which_type focused
+python3 ./train.py --dataroot path_to_dir_for_reflection_removal/ --gpu_ids 0 --save_epoch_freq 1 --batchSize 5 --which_type focused
 ```
 or you can directly:
 ``` bash 
