@@ -36,6 +36,8 @@ or you can directly:
 bash ./synthesis_test.sh
 ```
 [Here](https://drive.google.com/file/d/1il1jvCK2fb8g9NDA66bbazP5TwTbjdGU/view?usp=sharing) is the pre-trained model. And to generate the three types of reflection images, you can use [these original images](https://drive.google.com/file/d/1DNKj4YM4OjE_brXayf0hmqYQb3M6OqK7/view?usp=sharing) which are from [perceptual-reflection-removal](https://github.com/ceciliavision/perceptual-reflection-removal).
+
+Due to the **copyright**, the real reflection images are not released here.
 ## Reflection Removal
 ``` bash
 cd ./Removal
