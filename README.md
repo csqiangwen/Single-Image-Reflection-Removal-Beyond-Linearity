@@ -2,7 +2,7 @@
 ## Paper
 [Single Image Reflection Removal Beyond Linearity](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wen_Single_Image_Reflection_Removal_Beyond_Linearity_CVPR_2019_paper.pdf).
 
-Qiang Wen, Yinjie Tan, Jing Qin, Wenxi Liu, Guoqiang Han, and Shengfeng He*
+Qiang Wen, Jing Qin, Wenxi Liu, Guoqiang Han, and Shengfeng He*
 ## Requirement
 - Python 3.5
 - PIL
